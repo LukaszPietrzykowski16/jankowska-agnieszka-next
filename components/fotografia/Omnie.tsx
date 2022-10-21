@@ -5,7 +5,7 @@ import img1 from '../../images/fizjo.jpg';
 function OMnie() {
   return (
       <>
-    <div className='about-section'> 
+    <main className='about-section'> 
       <div className='about-photo'>
           <img src={img1.src} alt="Zdjecię przedstawiające Agnieszkę Jankowską" />
       </div>
@@ -15,7 +15,7 @@ function OMnie() {
           <h2 className='bo'> Zajmuję się również fizjoterapią </h2>
           <button> <a href='/fizjoterapia'> Sprawdź! </a>  </button>
       </div>
-    </div>
+    </main>
     </>);
     
 }

@@ -22,7 +22,7 @@ import emailjs from '@emailjs/browser';
 
   return (
       <>
-    
+    <section>
 <div className='contact'>
       <h3> KONTAKT </h3>
       <div className='contact-subsection'>
@@ -48,7 +48,7 @@ import emailjs from '@emailjs/browser';
   <input type="submit" value="Wyślij" />
 </form>
     </div>
-   
+    </section>
   </>);
 }
 

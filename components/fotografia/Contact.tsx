@@ -6,7 +6,7 @@ import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
 function Contact() {
   return (
-  <div className='contact'>
+  <section className='contact'>
    
 
 
@@ -16,7 +16,7 @@ function Contact() {
         <div className='contact-email'> <FontAwesomeIcon icon={ faEnvelope  } /> Email: f.f.agnieszkajankowska@gmail.com  </div>
       </div>
  
-  </div>);
+  </section>);
 }
 
 export default Contact;

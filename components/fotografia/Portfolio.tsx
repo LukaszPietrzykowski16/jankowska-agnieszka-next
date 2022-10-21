@@ -14,7 +14,7 @@ function Portfolio() {
   return (
    <>
     
-        <div className='portfolio'>
+        <section className='portfolio'>
         <Link href="/reportaz-slubny" ><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div><img src={img3.src} alt="Reporaz slubny"/><p>  Reportaż ślubny </p>  </div></Link>
         <Link href="/slub-plener"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <img src={img2.src} alt="Plenerowe sesje ślubne"/><p>  Plenerowe sesje ślubne </p>  </div></Link>
         <Link href="/chrzest-reportaz"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <img src={img4.src} alt="Chrzest Święty - reportaż"/><p>  Chrzest Święty - reportaż</p>  </div></Link>
@@ -24,7 +24,7 @@ function Portfolio() {
         <Link href="/sesja-portretowa"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <img src={img7.src} alt="Sesja portehrefwa"/> <p>  Sesja portehrefwa </p> </div></Link>
         <Link href="/rodzinne"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <img src={img8.src} alt=" Sesje rodzinne"/><p>  Sesje rodzinne </p>  </div></Link>
         <Link href="/ciazowe"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <img src={img6.src} alt="Sesje brzuszkowe"/><p>  Sesje brzuszkowe </p>  </div></Link>
-        </div>
+        </section>
        
            
         <div className='porfolio-button-div'>

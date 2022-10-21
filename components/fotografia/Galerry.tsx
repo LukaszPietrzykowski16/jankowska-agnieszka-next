@@ -42,7 +42,7 @@ export default function Galerry() {
   }, [])
 */
   return ( <>  
-  <div className='test-gallery'>
+  <section className='test-gallery'>
    
     <Link href="/reportaz-slubny">
     <div className='test-gallery-subsection'>
@@ -186,7 +186,7 @@ export default function Galerry() {
     
     
   
-  </div>
+  </section>
   </>
   )
 }
