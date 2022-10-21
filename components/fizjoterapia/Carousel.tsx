@@ -1,11 +1,11 @@
 import { useState, useEffect, useRef, SetStateAction } from 'react';
-import img0 from '../images/uprawnienia/img0.jpg';
-import img1 from '../images/uprawnienia/img1.jpg';
-import img2 from '../images/uprawnienia/img2.jpg';
-import img3 from '../images/uprawnienia/img3.jpg';
-import img4 from '../images/uprawnienia/img4.jpg';
-import img5 from '../images/uprawnienia/img5.jpg';
-import img6 from '../images/uprawnienia/img6.jpg';
+import img0 from '../../images/uprawnienia/img0.jpg';
+import img1 from '../../images/uprawnienia/img1.jpg';
+import img2 from '../../images/uprawnienia/img2.jpg';
+import img3 from '../../images/uprawnienia/img3.jpg';
+import img4 from '../../images/uprawnienia/img4.jpg';
+import img5 from '../../images/uprawnienia/img5.jpg';
+import img6 from '../../images/uprawnienia/img6.jpg';
 
 
 // there will be carousel element
@@ -21,13 +21,13 @@ function Carousel() {
     }
 
     useEffect(() => {
-        intervalRef = setInterval(() => {
+        const interval = setInterval(() => {
         // in setInterval we must do something like this
         setIndex(index => index + 1)
         setValue(0)
        
         }, 7000);
-            return () => clearInterval();
+            return () => clearInterval(interval);
           }, []);
   
    

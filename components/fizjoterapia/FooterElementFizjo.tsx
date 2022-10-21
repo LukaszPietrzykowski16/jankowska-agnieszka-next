@@ -13,7 +13,7 @@ function FooterelementFizjo() {
    <footer>
      <div className='footer-up'>
      <div className='footer-class'>
-       <img src={logo}/>
+       <img src={logo.src}/>
      </div>
      <div className='footer-class-svg'>
        <p className='social-footer'> <a href='https://www.facebook.com/fizjoterapia.Agnieszka.Jankowska'>  <FontAwesomeIcon icon={ faFacebook } /> </a>  </p>
