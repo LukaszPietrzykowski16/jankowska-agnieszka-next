@@ -119,7 +119,6 @@ a:visited {
 }
 
 .test-gallery-subsection-txt {
-  @include threeMagicLines();
   width: 100vw;
   padding-left: 20px;
   padding-right: 20px;

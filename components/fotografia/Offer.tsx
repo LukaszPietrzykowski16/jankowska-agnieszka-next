@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import img1 from '../images/portfolio/offer/img1.webp';
-import img2 from '../images/portfolio/offer/img2.webp';
-import img3 from '../images/portfolio/offer/img3.webp';
-import img4 from '../images/portfolio/offer/img4.webp';
-import img5 from '../images/portfolio/offer/img5.webp';
-import img6 from '../images/portfolio/offer/img6.webp';
+import img1 from '../../images/portfolio/offer/img1.webp';
+import img2 from '../../images/portfolio/offer/img2.webp';
+import img3 from '../../images/portfolio/offer/img3.webp';
+import img4 from '../../images/portfolio/offer/img4.webp';
+import img5 from '../../images/portfolio/offer/img5.webp';
+import img6 from '../../images/portfolio/offer/img6.webp';
 
 
 

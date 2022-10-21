@@ -5,7 +5,7 @@ import { faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faPhoneAlt } from '@fortawesome/free-solid-svg-icons';
 
-import logo from '../images/logoSzare.png'
+import logo from '../../images/logoSzare.png'
 
 function Footerelement() {
    return (

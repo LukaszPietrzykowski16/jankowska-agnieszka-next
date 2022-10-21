@@ -1,12 +1,12 @@
 import React from 'react'
-import About from '../../components/About'
-import Contact from '../../components/Contact'
-import Content from '../../components/Content'
-import Footerelement from '../../components/Footerelement'
-import Menu from '../../components/Menu'
-import Offer from '../../components/Offer'
-import Portfolio from '../../components/Portfolio'
-import Social from '../../components/Social'
+import About from '../../components/fotografia/About'
+import Contact from '../../components/fotografia/Contact'
+import Content from '../../components/fotografia/Content'
+import Footerelement from '../../components/fotografia/Footerelement'
+import Menu from '../../components/fotografia/Menu'
+import Offer from '../../components/fotografia/Offer'
+import Portfolio from '../../components/fotografia/Portfolio'
+import Social from '../../components/fotografia/Social'
 
 
 

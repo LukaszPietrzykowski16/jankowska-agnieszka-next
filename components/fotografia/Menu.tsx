@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useRef} from 'react';
-import logo from '../images/logo1.png';
+import logo from '../../images/logo1.png';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faXmarkCircle } from '@fortawesome/free-regular-svg-icons';
@@ -26,7 +26,7 @@ function Menu() {
         <Link href="/" aria-label="Wróć na stronę główną"><img src={logo.src} alt="logo"/></Link>
         </div>
         <ul className='navigation-desktop'>
-          <li className='sub-nav'><Link href="/fohrefgrafia"  aria-label="Stronę główną"> STRONA GŁÓWNA </Link> </li>
+          <li className='sub-nav'><Link href="/fotografia"  aria-label="Stronę główną"> STRONA GŁÓWNA </Link> </li>
           <li className='sub-nav'><Link href="/portfolio" aria-label="Portfolio"> PORTFOLIO </Link> </li>
           <li className='sub-nav'><Link href="/oferta" aria-label="Oferta"> OFERTA </Link> </li>
           <li className='sub-nav'><Link href="/kontakt" aria-label="Kontakt"> KONTAKT </Link> </li>
