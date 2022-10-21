@@ -1,6 +1,6 @@
 import React from 'react';
 import img1 from '../../images/fizjo.jpg'
-
+import Link from 'next/link'
 
 function Fizjo() {
     return (
@@ -17,7 +17,7 @@ function Fizjo() {
           <p className='pad'> Jednym z obszarów pracy, którym się zajmuje jako fizjoterapeuta jest uroginekologia. Prowadzę terapię kobiet w ciąży, z dolegliwościami bólowymi w obrębie miednicy oraz kręgosłupa. Zbadam stan mięśni dna miednicy po ciąży, poprowadzę terapię w rozejściu mięśni prostych brzucha, blizny po cesarskim cięciu, nietrzymaniu moczu oraz bolesnym miesiączkowaniu.  </p>
           <p className='pad'> W swojej pracy wykorzystuje techniki nabyte na szkoleniach. Głównie pracuje swoimi dłońmi, ale również używam innych niezbędnych urządzeń potrzebnych do profesjonalnego masażu i ćwiczeń. </p>
           <p className='bo'> Zajmuję się również fotografią </p>
-          <button> <a href='/fotografia'> Sprawdź! </a>  </button>
+          <button> <Link href='/fotografia'> Sprawdź! </Link>  </button>
       </div>
         </div>
        

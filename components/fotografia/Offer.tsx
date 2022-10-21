@@ -16,7 +16,7 @@ function Offer() {
 
   {images.map((image, index) => (
     <img
-      
+      key={index}
       className="image"
       src={image.src}
       style={{

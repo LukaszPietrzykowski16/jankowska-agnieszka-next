@@ -2,7 +2,7 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram } from '@fortawesome/free-brands-svg-icons';
 import { faFacebook } from '@fortawesome/free-brands-svg-icons';
-
+import Link from 'next/link'
 
 function Social() {
   return (
@@ -12,8 +12,8 @@ function Social() {
         <h1> Zapraszam na social media! </h1>
     </div>
      <div className='social'>
-        <div className='social-fb'> <a href='https://www.facebook.com/Jankowska.A.Fotografia'>  <FontAwesomeIcon icon={ faFacebook }  /> <p> Facebook </p> </a> </div>
-        <div className='social-ig'> <a href='https://www.instagram.com/jankowska_agnieszka_fotografia/'>  <FontAwesomeIcon icon={ faInstagram } /> <p> Instagram </p> </a> </div>
+     <Link href='https://www.facebook.com/Jankowska.A.Fotografia'><div className='social-fb'> <FontAwesomeIcon icon={ faFacebook }  /> <p> Facebook </p></div></Link> 
+     <Link href='https://www.instagram.com/jankowska_agnieszka_fotografia/'><div className='social-ig'> <FontAwesomeIcon icon={ faInstagram } /> <p> Instagram </p> </div></Link>
      </div>
       </section>
    

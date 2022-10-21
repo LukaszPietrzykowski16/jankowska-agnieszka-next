@@ -1,6 +1,6 @@
 import React from 'react'
 import About from '../../components/fotografia/About'
-import Contact from '../../components/fotografia/Contact'
+
 import Content from '../../components/fotografia/Content'
 import Footerelement from '../../components/fotografia/Footerelement'
 import Menu from '../../components/fotografia/Menu'
@@ -18,7 +18,7 @@ function index() {
     <About/>
     <Portfolio/>
     <Offer/>
-    <Contact/>
+   
     <Social/>
     <Footerelement/>
     </>
