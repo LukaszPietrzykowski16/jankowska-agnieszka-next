@@ -5,7 +5,7 @@ import img2 from '../../images/Fizjoterapia-20.jpg';
 
 function Cert() {
   return (
-    <div className='entitlements'>
+    <section className='entitlements'>
       <div className='card'>
         <div className='card-img'>
           <img src={img0.src}></img>
@@ -30,7 +30,7 @@ function Cert() {
           Posiadam również wyspecjaliozwane narzędzie do masażu klasycznego jak i masażu tkanek głebokich. Pomagają również w rehabilitacji pacjentów. 
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

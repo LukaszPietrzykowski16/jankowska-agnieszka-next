@@ -4,12 +4,6 @@ import Galerry from '../../components/fotografia/Galerry'
 import Menu from '../../components/fotografia/Menu'
 
 function index() {
-  
-  useEffect(() => {
-    const pathname = window.location.pathname
-    console.log(pathname)
-  })
-  
   return (
     <>
     <Menu/>

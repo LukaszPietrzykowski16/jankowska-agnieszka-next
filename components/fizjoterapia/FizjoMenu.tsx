@@ -22,7 +22,7 @@ function FizjoMenu() {
     
     return (
         <>
-         <div className='navigation'>
+         <nav className='navigation'>
         <div className='logo'>
         <Link href="/"><img src={logo.src}/></Link>
         </div>
@@ -37,8 +37,8 @@ function FizjoMenu() {
             <FontAwesomeIcon icon={ menu ?  faXmarkCircle  : faBars} />
           </div>
          
-          </div>
-          <div className='box'>
+          </nav>
+          <nav className='box'>
             <div className={menu ?  "menu-open": "menu-close"}>
             <div className='navigation-mobile'>
               <div className='sub-nav-mobile' onClick={() => hideMenu(menu)}>  <a href='#test'>  OFERTA </a> </div>
@@ -47,7 +47,7 @@ function FizjoMenu() {
             </div>
         </div>
         
-        </div>
+        </nav>
         </>
     )
 }

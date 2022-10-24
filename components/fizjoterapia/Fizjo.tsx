@@ -5,11 +5,11 @@ import Link from 'next/link'
 function Fizjo() {
     return (
         <>
-        <div id='about-section2'> 
-      <div className='about-photo'>
+        <main id='about-section2'> 
+        <div className='about-photo'>
           <img src={img1.src} alt="Zdjecię przedstawiające Agnieszkę Jankowską" />
-      </div>
-      <div className='about-text'>
+        </div>
+        <div className='about-text'>
           <h1> Cześć! </h1>
           <p className='pad'> Nazywam się Agnieszka Jankowska i jestem magistrem fizjoterapii. Ukończyłam Uniwersytet Medyczny w Łodzi na tym kierunku, ale zawodowo jestem związana ze Zduńską Wolą. Po zakończeniu studiów w dalszym ciągu zdobywam wiedzę na licznych szkoleniach. (Zobacz tutaj) </p>
           <p className='pad'> Od 2017 roku zaczęłam pracować w przychodni jako fizjoterapeuta, a od 2021 roku prowadzę własną praktykę fizjoterapeutyczną. Wychodząc naprzeciw potrzebom pacjentów – dojeżdżam do Waszych domach. </p>
@@ -18,8 +18,8 @@ function Fizjo() {
           <p className='pad'> W swojej pracy wykorzystuje techniki nabyte na szkoleniach. Głównie pracuje swoimi dłońmi, ale również używam innych niezbędnych urządzeń potrzebnych do profesjonalnego masażu i ćwiczeń. </p>
           <p className='bo'> Zajmuję się również fotografią </p>
           <button> <Link href='/fotografia'> Sprawdź! </Link>  </button>
-      </div>
         </div>
+        </main>
        
         </>
         

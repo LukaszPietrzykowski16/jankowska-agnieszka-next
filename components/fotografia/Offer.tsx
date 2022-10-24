@@ -41,7 +41,7 @@ useEffect(() => {
 
   return (
     <>
-    <div className="content-gallery">
+    <section className="content-gallery">
       <div className="content">
         <div  className="content-img">
           {images.map((image, index) => (
@@ -64,7 +64,7 @@ useEffect(() => {
         <p> Oferuję szeroki zakres, personalizowanych albumów. </p>
       </div>
 
-    </div>   
+    </section>   
   
     </>
   );

@@ -74,8 +74,8 @@ const Reportaz = () => {
         return (
           image.map((url) => {
             return (
-                <div className={"pic"}  onClick={() => showGallery(url)}>
-                <img src={url} alt="Zdjęcie autorstwa Agnieszki Jankowskiej"/>
+                <div className={"pic"} key={url} onClick={() => showGallery(url)}>
+                <img src={url} alt="Zdjęcie autorstwa Agnieszki Jankowskiej" />
                 </div>
             );
           })
@@ -88,7 +88,7 @@ const Reportaz = () => {
     <>
     <Menu/>
         <div className={lightbox ? "gallery-open": "gallery-close"}  >
-            <img src={image[index]}/>
+            <img src={image[index]} key={index}/>
             <div className='exit' onClick={() => hideGallery()}><FontAwesomeIcon icon={ faTimesCircle }/> </div>
             <div className='left-arrow' onClick={() =>  leftSlide(index)} >  <FontAwesomeIcon icon={ faArrowLeft }/> </div>
             <div className='right-arrow' onClick={() => rightSlide(index)}>  <FontAwesomeIcon icon={ faArrowRight  }/> </div>

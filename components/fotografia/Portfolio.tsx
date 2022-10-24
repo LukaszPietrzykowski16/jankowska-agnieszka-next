@@ -27,9 +27,9 @@ function Portfolio() {
         </section>
        
            
-        <div className='porfolio-button-div'>
+        <section className='porfolio-button-div'>
         <Link href="/portfolio"><button className='center' aria-label='Zobacz portfolio'>  Zobacz portfolio </button></Link> 
-        </div>
+        </section>
   
         </>
  );

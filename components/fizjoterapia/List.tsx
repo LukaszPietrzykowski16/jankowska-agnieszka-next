@@ -5,7 +5,7 @@ function List() {
     return (
         <>
 
-      <div id='about-info'>
+      <section id='about-info'>
           <h2 id="test"> Z czym możesz się do mnie zgłosić? </h2>
           <h3> Kiedy: </h3>
           <ul>
@@ -16,7 +16,7 @@ function List() {
             <li> zaobserwujesz wadę postawy u siebie lub u dzieci</li>
           </ul>
         
-      </div>
+      </section>
        
         </>
     )

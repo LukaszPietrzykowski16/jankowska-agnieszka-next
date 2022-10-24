@@ -8,7 +8,7 @@ export default function Oferta() {
    
   return (<>
 
-
+<section>
   <div className='photo-oferta'>
   Decydując się na sesję zdjęciową otrzymujecie gotowy produkt w postaci odbitek bądź albumu. Starannie przygotowane odbitki na matowym papierze możecie wręczyć najbliższym lub zostawić je u siebie. To Wy wybieracie zdjęcia, które chcecie wydrukować, a ja resztę robię za Was. Wam pozostaje podzielenie się swoim wspomnieniami z najbliższymi.
   </div>
@@ -31,6 +31,7 @@ export default function Oferta() {
   <div className='oferta-baner'>
       
  </div>
-
+    
+ </section>
   </>);
 }
