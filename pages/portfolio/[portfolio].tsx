@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Service from '../../services/service';
 import Menu from '../../components/fotografia/Menu';
 import Footerelement from '../../components/fotografia/Footerelement';
+import Image from 'next/image'
 
 const Reportaz = () => {
     const image = Service()
@@ -14,12 +15,14 @@ const Reportaz = () => {
    
 
     // displaying images on the screen 
+    /*
     useEffect(() => {
       const timer = setTimeout(() => {
         setReady(true)
       }, 2000);
       return () => clearTimeout(timer);
     }, []);
+    */
     const [lightbox, setLightbox] = useState(false);
     
     const showGallery = (url: string) => {
@@ -75,7 +78,18 @@ const Reportaz = () => {
           image.map((url) => {
             return (
                 <div className={"pic"} key={url} onClick={() => showGallery(url)}>
-                <img src={url} alt="Zdjęcie autorstwa Agnieszki Jankowskiej" />
+                <Image src={url} 
+                alt="Zdjęcie autorstwa Agnieszki Jankowskiej" 
+                width={2800} 
+                height={2800} 
+                placeholder="blur"
+                blurDataURL="true"
+                style={{
+                  height: '100%',
+                  width: '100%',
+                  objectFit: 'cover'
+                }}
+                />
                 </div>
             );
           })
@@ -88,7 +102,7 @@ const Reportaz = () => {
     <>
     <Menu/>
         <div className={lightbox ? "gallery-open": "gallery-close"}  >
-            <img src={image[index]} key={index}/>
+            <img src={image[index]}/>
             <div className='exit' onClick={() => hideGallery()}><FontAwesomeIcon icon={ faTimesCircle }/> </div>
             <div className='left-arrow' onClick={() =>  leftSlide(index)} >  <FontAwesomeIcon icon={ faArrowLeft }/> </div>
             <div className='right-arrow' onClick={() => rightSlide(index)}>  <FontAwesomeIcon icon={ faArrowRight  }/> </div>
@@ -96,7 +110,7 @@ const Reportaz = () => {
 
      
       <div className='gallery-portfolio'>
-      {ready === true ? Galleria() : <div className='roller-conatiner'>  <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div> </div>}
+      {ready === false ? Galleria() : <div className='roller-conatiner'>  <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div> </div>}
       
       </div>
     <Footerelement/>
