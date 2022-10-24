@@ -7,32 +7,16 @@ import {
 import { projectStorage} from "../../config";
 import { faArrowLeft, faXRay, faArrowRight, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import Service from '../../services/service';
 
 const Reportaz = () => {
-    const [image, setImageUrls] = useState([]);
+    const image = Service()
     const [ready, setReady] = useState(false)
     const [index, setIndex] = useState(0)
     
     
    
-    useEffect(() => {
-        const pathname = window.location.pathname
-        // fetching data from storage in firebase
-        const imagesListRef = ref(projectStorage, `${pathname.replace('/portfolio', '')}`);
-      try {
-        listAll(imagesListRef)
-        .then((response) => {response.items.forEach((item) => {getDownloadURL(item)
- 
-        .then((url) => {setImageUrls((prev) => [...prev, url]);
-        });
-        });
-        });
-        
-      } catch {
-        console.log('error')
-      }
-     
-    }, []);
+
     // displaying images on the screen 
     useEffect(() => {
       const timer = setTimeout(() => {
