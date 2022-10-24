@@ -7,8 +7,8 @@ import {
   import { projectStorage} from "../config";
 
 const Service = () => {
-    const [image, setImageUrls] = useState([]);
-   
+    const [image, setImageUrls] = useState<string[]>([]);
+
     useEffect(() => {
         const pathname = window.location.pathname
         // fetching data from storage in firebase
@@ -17,7 +17,7 @@ const Service = () => {
         listAll(imagesListRef)
         .then((response) => {response.items.forEach((item) => {getDownloadURL(item)
  
-        .then((url) => {setImageUrls((prev) => [...prev, url]);
+        .then((url:string) => {setImageUrls((prev) => [...prev, url]);
         });
         });
         });

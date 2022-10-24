@@ -1,13 +1,9 @@
 import React, { useEffect, useState, useCallback}  from 'react';
-import {
-    ref,
-    getDownloadURL,
-    listAll,
-  } from "firebase/storage";
-import { projectStorage} from "../../config";
 import { faArrowLeft, faXRay, faArrowRight, faTimesCircle } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Service from '../../services/service';
+import Menu from '../../components/fotografia/Menu';
+import Footerelement from '../../components/fotografia/Footerelement';
 
 const Reportaz = () => {
     const image = Service()
@@ -26,7 +22,7 @@ const Reportaz = () => {
     }, []);
     const [lightbox, setLightbox] = useState(false);
     
-    const showGallery = (url: never) => {
+    const showGallery = (url: string) => {
       image.some(exactImage => {
         if (exactImage === url) {
           setIndex(image.indexOf(exactImage))
@@ -90,7 +86,7 @@ const Reportaz = () => {
 
   return (
     <>
-
+    <Menu/>
         <div className={lightbox ? "gallery-open": "gallery-close"}  >
             <img src={image[index]}/>
             <div className='exit' onClick={() => hideGallery()}><FontAwesomeIcon icon={ faTimesCircle }/> </div>
@@ -103,7 +99,7 @@ const Reportaz = () => {
       {ready === true ? Galleria() : <div className='roller-conatiner'>  <div className="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div> </div>}
       
       </div>
-    
+    <Footerelement/>
     </>
   );
     
