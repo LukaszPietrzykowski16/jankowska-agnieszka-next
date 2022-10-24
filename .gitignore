@@ -23,6 +23,7 @@ firebase.json
 .firebaserc
 *.cache
 *.yml
+config.js
 # misc
 .DS_Store
 *.pem

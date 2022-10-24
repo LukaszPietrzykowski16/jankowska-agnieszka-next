@@ -44,7 +44,7 @@ export default function Galerry() {
   return ( <>  
   <section className='test-gallery'>
    
-    <Link href="/reportaz-slubny">
+    <Link href="/portfolio/reportaz-slubny">
     <div className='test-gallery-subsection'>
       <div className='test-gallery-subsection-img'>
         <img src={img2.src} alt="Reportaż ślubny"/>
@@ -57,7 +57,7 @@ export default function Galerry() {
       </div>
     </div>
     </Link>
-    <Link href="/slub-plener"> 
+    <Link href="/portfolio/slub-plener"> 
     <div className='test-gallery-subsection-reverse'>
 
   
@@ -76,7 +76,7 @@ export default function Galerry() {
       
     </div>
     </Link>
-    <Link href="/chrzest-reportaz"> 
+    <Link href="/portfolio/chrzest-reportaz"> 
     <div className='test-gallery-subsection'>
       <div className='test-gallery-subsection-img'>
         <img src={img4.src} alt="Chrzest święty - reportaż"/>
@@ -90,7 +90,7 @@ export default function Galerry() {
       </div>
     </div>
     </Link>
-    <Link href="/chrzest-plener"> 
+    <Link href="/portfolio/chrzest-plener"> 
     <div className='test-gallery-subsection-reverse'>
      
       <div className='test-gallery-subsection-txt'>
@@ -105,7 +105,7 @@ export default function Galerry() {
       </div>
     </div>
     </Link>
-    <Link href="/komunia"> 
+    <Link href="/portfolio/komunia"> 
     <div className='test-gallery-subsection'>
     <div className='test-gallery-subsection-img'>
         <img src={img6.src} alt="Chrzest święty plener"/>
@@ -120,7 +120,7 @@ export default function Galerry() {
     </div>
     </Link>
     
-    <Link href="/imprezy-okolicznosciowe"> 
+    <Link href="/portfolio/imprezy-okolicznosciowe"> 
     <div className='test-gallery-subsection-reverse'>
     <div className='test-gallery-subsection-txt'>
     
@@ -136,7 +136,7 @@ export default function Galerry() {
     </Link>
 
 
-    <Link href="/ciazowe"> 
+    <Link href="/portfolio/ciazowe"> 
     <div className='test-gallery-subsection'>
     
       <div className='test-gallery-subsection-img'>
@@ -153,7 +153,7 @@ export default function Galerry() {
 
     
 
-    <Link href="/sesja-portretowa"> 
+    <Link href="/portfolio/sesja-portretowa"> 
     <div className='test-gallery-subsection-reverse'>
      
       <div className='test-gallery-subsection-txt'>
@@ -168,7 +168,7 @@ export default function Galerry() {
     </div>
     </Link>
 
-    <Link href="/imprezy-okolicznosciowe"> 
+    <Link href="/portfolio/imprezy-okolicznosciowe"> 
     <div className='test-gallery-subsection'>
      
       <div className='test-gallery-subsection-img'>
