@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Service from '../../services/service';
 import Menu from '../../components/fotografia/Menu';
 import Footerelement from '../../components/fotografia/Footerelement';
-
+import Head from 'next/head';
 
 const Reportaz = () => {
     const image = Service()
@@ -92,6 +92,11 @@ const Reportaz = () => {
 
   return (
     <>
+    <Head>
+    <title> Agnieszka Jankowska </title>
+    <meta name="description" content="Agnieszka Jankowska fotografia dane kontaktowe" />
+    <link rel="icon" href="/logo.png" />
+    </Head>
     <Menu/>
         <div className={lightbox ? "gallery-open": "gallery-close"}  >
             <img src={image[index]}/>
