@@ -76,12 +76,14 @@ const Reportaz = () => {
         image.sort();
         return (
           image.map((url) => {
+           
             return (
-                <div className={"pic"} key={url} onClick={() => showGallery(url)}>
+                <div className={'pic'} key={url} onClick={() => showGallery(url)}>
                 <Image src={url} 
                 alt="Zdjęcie autorstwa Agnieszki Jankowskiej" 
-                width={2800} 
-                height={2800} 
+                height={'1000'}
+                width={'1200'}
+               
                 placeholder="blur"
                 blurDataURL="true"
                 style={{
@@ -92,6 +94,7 @@ const Reportaz = () => {
                 />
                 </div>
             );
+            
           })
         )
         

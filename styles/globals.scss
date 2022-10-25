@@ -521,6 +521,8 @@ button:hover{
 }
 
 
+
+
 .gallery-portfolio {
   margin: 0 0.65rem;
 }
@@ -529,6 +531,7 @@ button:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  
   :hover {
     transform: scale(1.02);
   }
