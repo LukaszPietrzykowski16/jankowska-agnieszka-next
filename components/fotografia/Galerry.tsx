@@ -9,10 +9,11 @@ import img7 from '../../images/portfolio/3.webp';
 import img8 from '../../images/portfolio/sesje rodzinne.webp'
 import img11 from '../../images/portfolio/1.webp';
 import Link from 'next/link'
-
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import  gsap from 'gsap';
 
 export default function Galerry() {
-    /*
+
   gsap.registerPlugin(ScrollTrigger);
 
   useEffect(() => {
@@ -40,7 +41,7 @@ export default function Galerry() {
     })
           
   }, [])
-*/
+
   return ( <>  
   <section className='test-gallery'>
    

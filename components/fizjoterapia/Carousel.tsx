@@ -6,7 +6,7 @@ import img3 from '../../images/uprawnienia/img3.jpg';
 import img4 from '../../images/uprawnienia/img4.jpg';
 import img5 from '../../images/uprawnienia/img5.jpg';
 import img6 from '../../images/uprawnienia/img6.jpg';
-import Image from 'next/image';
+
 
 // there will be carousel element
 function Carousel() {
@@ -55,7 +55,7 @@ function Carousel() {
 
     <section className="carousel">
         <div className="carousel-img">
-            <Image src={images[index].src}/>
+            <img src={images[index].src}/>
         </div>
         <div className="carousel-bar">
             <div className='bar' >

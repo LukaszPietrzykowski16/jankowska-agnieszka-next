@@ -1,18 +1,16 @@
 import React, { useEffect} from 'react';
 import img1 from '../../images/img1.webp'
 import  gsap from 'gsap';
-import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 
 
 
 
 function About() {
-  /*
-  gsap.registerPlugin(ScrollTrigger);
- 
 
+  gsap.registerPlugin(ScrollTrigger);
   useEffect(() => {
-     
+ 
   gsap.from('.about-photo', {scrollTrigger: {
     trigger: '.about-photo',
     toggleActions: 'play none none none'},
@@ -24,7 +22,7 @@ function About() {
 }, [])
 
 useEffect(() => {
-     
+
   gsap.from('.about-text', {scrollTrigger: {
     trigger: '.about-text',
     toggleActions: 'play none none none'},
@@ -34,7 +32,7 @@ useEffect(() => {
   })
         
 }, [])
-*/
+
   return (
   <section className='about-section'> 
     <div className='about-photo'>
