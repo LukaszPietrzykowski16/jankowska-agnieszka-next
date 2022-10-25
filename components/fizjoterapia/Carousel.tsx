@@ -14,8 +14,7 @@ function Carousel() {
     const [index, setIndex] = useState(0)
     const [value, setValue] = useState(0)
 
-    let intervalRef = useRef()
-   
+ 
     if (index === images.length) {
         setIndex(0)
     }
