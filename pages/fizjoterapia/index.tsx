@@ -16,7 +16,7 @@ function index() {
 
     <Head>
       <title> Agnieszka Jankowska Fizjoterapia </title>
-      <meta name="description" content="Agnieszka Jankowska fizjoterapia" />
+      <meta name="description" content="Agnieszka Jankowska fizjoterapia, wykonuję fizjoterapię na terenie Zduńskiej Woli. Podczas wizyty domowej staram się pomóc w powrocie do dawnej sprawności fizycznej. Jednym z obszarów pracy, którym się zajmuje jako fizjoterapeuta jest uroginekologia. Prowadzę terapię kobiet w ciąży, z dolegliwościami bólowymi w obrębie miednicy oraz kręgosłupa. Zbadam stan mięśni dna miednicy po ciąży, poprowadzę terapię w rozejściu mięśni prostych brzucha, blizny po cesarskim cięciu, nietrzymaniu moczu oraz bolesnym miesiączkowaniu." />
       <link rel="icon" href="/logo.png" />
     </Head>
 
@@ -24,7 +24,7 @@ function index() {
     <Fizjo/>
     <List/>
     <Cert/> 
-    
+   
     <ContactFizjo/>
     <Footerelement/>
     </>
