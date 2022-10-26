@@ -16,7 +16,7 @@ function index() {
   return (
     <>
     <Head>
-    <title> Agnieszka Jankowska Fotografia </title>
+    <title> Agnieszka Jankowska Fotografia Zduńska Wola Reportaż Ślubny Fotografia Rodzinna</title>
     <meta name="description" content="Jestem Agnieszka i mieszkam w Zduńskiej Woli. Fotografią zajmuję się od ponad 10 lat – w głównej mierze jest to fotografia reportażowa oraz portretowa. Chętnie wykonam dla Ciebie sesje indywidualną, w parze lub rodzinną, w swojej ofercie mam również reportaże z chrzcin, komunii czy wesel." />
     <link rel="icon" href="/logo.png" />
     </Head>
