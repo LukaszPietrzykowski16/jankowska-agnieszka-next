@@ -24,7 +24,7 @@ function index() {
     <Fizjo/>
     <List/>
     <Cert/> 
-   
+    <Carousel/>
     <ContactFizjo/>
     <Footerelement/>
     </>

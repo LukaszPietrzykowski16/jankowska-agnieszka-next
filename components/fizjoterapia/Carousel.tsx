@@ -10,17 +10,25 @@ import img6 from '../../images/uprawnienia/img6.jpg';
 
 // there will be carousel element
 function Carousel() {
-    const [images, setImages] = useState([img0, img1, img2, img3, img4, img5, img6])
+    const [images, setImages] = useState([img0.src, img1.src, img2.src, img3.src, img4.src, img5.src, img6.src])
     const [index, setIndex] = useState(0)
     const [value, setValue] = useState(0)
-
- 
+    const [stop, setStop] = useState(false)
+   
     if (index === images.length) {
         setIndex(0)
     }
+    
+    if (images[index]=== undefined){
+        setIndex(0)
+    }
+
 
     useEffect(() => {
         const interval = setInterval(() => {
+        if (stop === true){
+           clearInterval(interval)
+        }
         // in setInterval we must do something like this
         setIndex(index => index + 1)
         setValue(0)
@@ -39,11 +47,10 @@ function Carousel() {
         };
           });
 
-          // i need to clean up the interval right here
     function check(number: SetStateAction<number>){
+        
         setIndex(number)
         setValue(0)
-       
     }
 
 
@@ -52,9 +59,9 @@ function Carousel() {
     
 
 
-    <section className="carousel">
+    <div className="carousel">
         <div className="carousel-img">
-            <img src={images[index].src}/>
+            <img src={images[index]}/>
         </div>
         <div className="carousel-bar">
             <div className='bar' >
@@ -86,7 +93,7 @@ function Carousel() {
             </div>
         </div>
         
-    </section>
+    </div>
 
     </>
     )

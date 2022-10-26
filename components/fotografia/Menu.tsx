@@ -1,5 +1,5 @@
 import React, {useEffect, useState, useRef} from 'react';
-import logo from '../../images/logo1.png';
+import logo from '../../images/logoFoto.png';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faHome } from "@fortawesome/free-solid-svg-icons";
 import { faXmarkCircle } from '@fortawesome/free-regular-svg-icons';

@@ -7,6 +7,7 @@ import Offer from '../../components/fotografia/Offer'
 import Portfolio from '../../components/fotografia/Portfolio'
 import Social from '../../components/fotografia/Social'
 import Head from 'next/head'
+import Carousel from '../../components/fizjoterapia/Carousel'
 
 
 function index() {
@@ -26,7 +27,7 @@ function index() {
     <About/>
     <Portfolio/>
     <Offer/>
-   
+    <Carousel/>
     <Social/>
     <Footerelement/>
     </>
