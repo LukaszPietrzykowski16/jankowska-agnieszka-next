@@ -3,7 +3,7 @@ import React from 'react';
 
 function Content() {
   return (
-  <section className='container'>
+  <header className='container'>
     <div className='container-text'>
         Agnieszka Jankowska
         <div className='scroller'>
@@ -16,7 +16,7 @@ function Content() {
     </div>
     </div>
    
-  </section>
+  </header>
   )
 }
 
