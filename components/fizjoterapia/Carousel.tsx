@@ -59,7 +59,7 @@ function Carousel() {
     
 
 
-    <div className="carousel">
+    <div id="carousel">
         <div className="carousel-img">
             <img src={images[index]}/>
         </div>
