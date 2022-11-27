@@ -169,7 +169,7 @@ export default function Galerry() {
     </div>
     </Link>
 
-    <Link href="/portfolio/imprezy-okolicznosciowe"> 
+    <Link href="/portfolio/rodzinne"> 
     <div className='test-gallery-subsection'>
      
       <div className='test-gallery-subsection-img'>

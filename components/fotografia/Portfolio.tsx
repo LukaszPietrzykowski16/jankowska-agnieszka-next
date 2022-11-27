@@ -21,7 +21,7 @@ function Portfolio() {
         <Link href="/portfolio/chrzest-plener"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div> <img src={img10.src} alt="Chrzest Święty - plene"/><p>  Chrzest Święty - plener</p> </div></Link> 
         <Link href="/portfolio/komunia"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <img src={img9.src} alt="komunia"/><p>  Komunia Święta </p>  </div></Link>
         <Link href="/portfolio/imprezy-okolicznosciowe"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <img src={img5.src} alt="Chrzest Święta - plener"/><p>  Imprezy okolicznościowe </p> </div></Link> 
-        <Link href="/portfolio/sesja-portretowa"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <img src={img7.src} alt="Sesja portehrefwa"/> <p>  Sesja portehrefwa </p> </div></Link>
+        <Link href="/portfolio/sesja-portretowa"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <img src={img7.src} alt="Sesja portehrefwa"/> <p>  Sesja portetowa </p> </div></Link>
         <Link href="/portfolio/rodzinne"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <img src={img8.src} alt=" Sesje rodzinne"/><p>  Sesje rodzinne </p>  </div></Link>
         <Link href="/portfolio/ciazowe"><div className='sub-portfolio'> <div className='more'>  WIĘCEJ  </div>  <img src={img6.src} alt="Sesje brzuszkowe"/><p>  Sesje brzuszkowe </p>  </div></Link>
         </section>

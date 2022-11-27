@@ -24,7 +24,6 @@ function List() {
           <p> Fizjoterapia ortopedyczna </p>
           <ul>
             <li> Bóle kręgosłupa, rwa kulszowa </li>
-            <li> Przeciążenia tkanek w wyniku długotrwałej postawy siedzącej, stojącej, uprawiania sportu, dźwigania, </li>
             <li> Stany po urazach, złamaniach, endoprotezoplastyce, unieruchomieniu kończyn, ograniczenia zakresu ruchu, </li>
             <li> Usprawnienie po operacji, po przebytej chorobie, pionizacja, nauka chodzenia, ćwiczenia oddechowe, ogólnousprawniające </li>
           </ul>
@@ -40,8 +39,10 @@ function List() {
             <p> Masaż leczniczy </p>
            
             <ul>
+              <li> Częściowy lub całościowy </li>
               <li> Terapia wad postawy u dzieci i młodzieży </li>
               <li> Instruktaż ćwiczeń korekcyjnych, rozluźniających, wzmacniających, </li>
+              <li> Przeciążenia tkanek w wyniku długotrwałej postawy siedzącej, stojącej, uprawiania sportu, dźwigania, </li>
             </ul>
           </div>
           </div>
